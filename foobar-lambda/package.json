@@ -2,7 +2,7 @@
   "name": "foobar-lambda",
   "version": "1.0.0",
   "source": "index.ls",
-  "main": "dist/index.js",
+  "main": "dist/lambda.js",
   "license": "MIT",
   "scripts": {
     "build": "yarn parcel build"
