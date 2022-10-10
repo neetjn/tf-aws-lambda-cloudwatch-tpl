@@ -2,11 +2,11 @@
   "name": "foobar-lambda",
   "version": "1.0.0",
   "source": "index.ls",
-  "main": "dist/lambda.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "build": "npx parcel build",
-    "bundle": "npm run build && zip ../terraform/lambda.js.zip dist/lambda.js"
+    "bundle": "npm run build && zip -r -j ../terraform/lambda.js.zip dist/*.js"
   },
   "devDependencies": {
     "parcel": "^2.7.0",

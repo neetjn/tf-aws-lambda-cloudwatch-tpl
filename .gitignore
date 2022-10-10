@@ -183,3 +183,7 @@ Sessionx.vim
 tags
 # Persistent undo
 [._]*.un~
+
+foobar-lambda/dist
+terraform/plan
+terraform/lambda.js.zip
