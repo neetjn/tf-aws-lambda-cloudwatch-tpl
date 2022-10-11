@@ -17,7 +17,9 @@ To build the lambda use `make build`. Assuming you have an active AWS session, u
 * [x] Create iam role for lambda.
 * [x] Create logging policy for lambda with CloudWatch.
 * [x] Create lambda.
-* [ ] Create CloudWatch alarms.
+* [x] Create sns topic for alarms.
+* [x] Create CloudWatch alarms.
+* [ ] Break down TF into modules.
 
 ---
 

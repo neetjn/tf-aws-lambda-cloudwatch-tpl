@@ -185,5 +185,5 @@ tags
 [._]*.un~
 
 foobar-lambda/dist
-terraform/plan
+terraform/*.plan
 terraform/lambda.js.zip

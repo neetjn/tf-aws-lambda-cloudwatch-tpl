@@ -12,8 +12,8 @@ build:
 plan:
 	terraform -chdir=terraform init
 	terraform -chdir=terraform validate
-	terraform -chdir=terraform plan --out=plan
+	terraform -chdir=terraform plan --out=terraform.plan
 
 # run terraform plan
 deploy:
-	terraform -chdir=terraform apply plan
+	terraform -chdir=terraform apply terraform.plan
