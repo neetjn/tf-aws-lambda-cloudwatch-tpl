@@ -1,0 +1,14 @@
+{
+  "name": "foobar-lambda",
+  "version": "1.0.0",
+  "source": "index.ls",
+  "main": "dist/lambda.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "parcel-transformer-livescript": "^2.0.0"
+  }
+}
